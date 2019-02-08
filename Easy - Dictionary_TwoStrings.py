@@ -10,16 +10,10 @@ import sys
 def twoStrings(s1, s2):
     dict_s1 = {}; dict_s2 = {}
     for element in s1:
-        if dict_s1.has_key(element):
-            pass
-        else:
-            dict_s1[element] = 0
+        dict_s1[element] = 0
             
     for element in s2:
-        if dict_s2.has_key(element):
-            pass
-        else:
-            dict_s2[element] = 0
+        dict_s2[element] = 0
             
     for key in dict_s1:
         if dict_s2.has_key(key):
